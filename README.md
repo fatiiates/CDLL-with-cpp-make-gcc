@@ -44,7 +44,7 @@ gcc derleyicisini sorunsuz bir şekilde kurduktan sonra konsol üzerinden indird
 &emsp;&emsp;Programa verilen Sayılar.txt'nin içerisinde bilgileri satır satır ve her satırı boşluklardan ayırarak hücre bazında okumaya başlar. Sayılar.txt içerisinde her varsayılan olarak 250 sayı barındırır bu sayı isteğe göre arttırılabilir. Satırlarda içindeki sayılar birbirlerinden boşluklar aracılığıyla ayrılmalıdır;
 > 1 254 200 100 50 10 20 14 53 23 53 4
 
-!LINUX SİSTEMLER İÇİN 0-254 arası sayılar kabul edilmektedir. Nedeni 255 sayısının Linux sisteminde çekirdeğin çökmesine sebep olmasıdır.
+!LINUX SİSTEMLER İÇİN 0-254 arası sayılar kabul edilmektedir. Nedeni 255 sayısının Linux sisteminde ekrana yazdırılırken çekirdeğin çökmesine sebep olmasıdır.
 
 &emsp;&emsp;Başlangıçta RAM'in heap bölgesini işaret eden bir ArrayList işaretçisi oluşturulur. Sayilar.txt'nin satırlarını tek tek okumaya başlar ve her satır için ArrayList'in bir hücresine yine heap bölgesini işaret eden Çift Yönlü Bağıl Liste işaretçisi ekler. Okuduğu her satırı boşluklar aracılığıyla hücrelere böler. Elde ettiği her hücreleri bağıl listede aşağıdaki verilere göre sıraya dizer;
 > İlk gelen sayıyı direkt listeye ekler  
