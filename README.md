@@ -1,7 +1,7 @@
 ## Hiyerarşik Düzen
 
 * /bin
-  - benioku.txt
+  - benioku.txt(Hiyerarşi için oluşturuldu)
   - Test.exe
 * /doc
   - readme.txt
