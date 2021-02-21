@@ -1,7 +1,7 @@
-## Hiyerarşik Düzen
+## File Tree/Dosya ağacı
 
 * /bin
-  - benioku.txt(Hiyerarşi için oluşturuldu)
+  - readme.txt
   - Test.exe
 * /doc
   - readme.txt
